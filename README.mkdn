@@ -1,0 +1,71 @@
+# Cobregratis (0.1.0)
+
+## What is it?
+
+This gem provides a set of classes to access information on [Cobre Grátis][cg] via the published [API][api].
+
+All these classes are inherited from ActiveResouce::Base. Refer to the [ActiveResouce][ar] documentation for more information.
+
+## Installing
+
+    gem install cobregratis
+
+### Dependencies (see the Rakefile or run <code>rake check_dependencies</code>)
+
+### Documentation
+
+  I'm on [rdoc.info][rdoc]
+
+### Configure your key
+    
+    require 'rubygems'
+    require 'cobregratis'
+    
+    Cobregratis::Base.site = 'https://app.cobregratis.com.br'
+    Cobregratis::Base.user = 'your_api_username'
+    Cobregratis::Base.password = 'your_api_password'
+
+and, if you want [caching][c]:
+
+    Cobregratis::Base.connection.cache_store= <your normal ActiveSupport::Caching options>
+    
+If you are using this in a Rails application, putting this code in a config/initializers/cobregratis.rb
+file is recommended. See config_initializers_cobregratis.rb in the examples/ directory.
+
+## Usage
+
+    @billets = Cobregratis::Billet.find(:all)
+
+## License
+
+This code is free to be used under the terms of the [MIT license][mit].
+
+## Bugs, Issues, Kudos and Catcalls
+
+Comments are welcome. Send your feedback through the [issue tracker on GitHub][i]
+
+## Author
+
+### **Rafael Lima**
+
+Working at [BielSystems](http://bielsystems.com.br)
+
+Blog: [http://rafael.adm.br](http://rafael.adm.br)
+
+Podcast: [http://rafael.adm.br/voltandopracasa](http://rafael.adm.br/voltandopracasa)
+
+Github: [http://github.com/rafaelp](http://github.com/rafaelp)
+
+Twitter: [http://twitter.com/rafaelp](http://twitter.com/rafaelp)
+
+### Did you like?
+
+[Recommend me at Working With Rails](http://workingwithrails.com/recommendation/new/person/14248-rafael-lima)
+
+[api]: http://app.cobregratis.com.br/api
+[ar]: http://api.rubyonrails.org/classes/ActiveResource/Base.html
+[c]:  http://api.rubyonrails.org/classes/ActiveSupport/Cache
+[cg]:  http://cobregratis.com.br/
+[i]:  http://github.com/rafaelp/cobregratis/issues
+[mit]:http://www.opensource.org/licenses/mit-license.php
+[rdoc]: http://rdoc.info/projects/rafaelp/cobregratis
