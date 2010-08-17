@@ -30,7 +30,7 @@
 #
 # Note: To ensure that caching is turned off, set CachedResource.connection.cache_store = nil
 #
-# FYI: You can use this with *any* active resource class, not just Highrise.
+# FYI: You can use this with *any* active resource class, not just Cobregratis.
 
 module Cachable
   def self.included(base)
