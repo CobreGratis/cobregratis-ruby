@@ -44,6 +44,14 @@ This code is free to be used under the terms of the [MIT license][mit].
 
 Comments are welcome. Send your feedback through the [issue tracker on GitHub][i]
 
+## Contributors
+
+Special thanks to:
+
+### **Tapajós**
+
+Github: [http://github.com/tapajos](http://github.com/tapajos)
+
 ## Author
 
 ### **Rafael Lima**
