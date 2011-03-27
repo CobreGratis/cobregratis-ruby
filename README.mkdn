@@ -34,7 +34,7 @@ file is recommended. See config_initializers_cobregratis.rb in the examples/ dir
 
 ## Usage
 
-    @billets = Cobregratis::Billet.find(:all)
+    @bank_billets = Cobregratis::BankBillet.find(:all)
 
 ## License
 
