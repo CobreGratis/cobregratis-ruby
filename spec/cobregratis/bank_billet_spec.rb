@@ -1,8 +1,8 @@
 require File.dirname(__FILE__) + '/../spec_helper'
 
-describe Cobregratis::Billet do
+describe Cobregratis::BankBillet do
   before(:each) do
-    @billet = Cobregratis::Billet.new
+    @billet = Cobregratis::BankBillet.new
   end
   
   it "should be instance of Cobregratis::Base" do

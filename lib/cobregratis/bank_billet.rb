@@ -1,4 +1,4 @@
 module Cobregratis
-  class Billet < Base
+  class BankBillet < Base
   end
 end
