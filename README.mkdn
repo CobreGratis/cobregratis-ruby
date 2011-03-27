@@ -1,4 +1,4 @@
-# Cobregratis (0.1.0)
+# Cobregratis
 
 ## What is it?
 
@@ -22,8 +22,8 @@ All these classes are inherited from ActiveResouce::Base. Refer to the [ActiveRe
     require 'cobregratis'
     
     Cobregratis::Base.site = 'https://app.cobregratis.com.br'
-    Cobregratis::Base.user = 'your_api_username'
-    Cobregratis::Base.password = 'your_api_password'
+    Cobregratis::Base.user = 'your_token'
+    Cobregratis::Base.password = 'X'
 
 and, if you want [caching][c]:
 

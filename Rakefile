@@ -16,16 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/rafaelp/cobregratis"
   gem.license = "MIT"
   gem.summary = %Q{Ruby Wrapper around Cobre Grátis API}
-  gem.description = %{
-Cobre Grátis
-
-Configure by adding the following:
-
-require 'cobregratis'
-Cobregratis::Base.site = 'https://app.cobregratis.com.br/'
-Cobregratis::Base.user = 'your_api_username'
-Cobregratis::Base.user = 'your_api_password'
-                        }
+  gem.description = "Ruby Wrapper around Cobre Grátis API. More info at: http://cobregratis.com.br/doc/api"
   gem.email = "contato@rafael.adm.br"
   gem.authors = ["Rafael Lima"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
