@@ -25,7 +25,7 @@ e se você estiver usando [cache](http://api.rubyonrails.org/classes/ActiveSuppo
 Cobregratis::Base.connection.cache_store= <your normal ActiveSupport::Caching options>
 ```
 
-Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo no arquivo `examples/xonfig_initializers_cobregratis.rb`.
+Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em `examples/config_initializers_cobregratis.rb`.
 
 ## Uso
 
