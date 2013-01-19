@@ -1,4 +1,4 @@
-# Ruby gem para a API do Cobre Grátis
+# Ruby Gem para a API do Cobre Grátis
 
 Essa biblioteca é um conjunto de classes para acessar as informações do [Cobre Grátis](http://cobregratis.com.br) através da [API](https://github.com/BielSystems/cobregratis-api).
 
