@@ -1,4 +1,4 @@
-# Cobregratis
+# Ruby gem para a API do Cobre Grátis
 
 Essa biblioteca é um conjunto de classes para acessar as informações do [Cobre Grátis](http://cobregratis.com.br) através da [API](https://github.com/BielSystems/cobregratis-api).
 
@@ -25,15 +25,31 @@ e se você estiver usando [cache](http://api.rubyonrails.org/classes/ActiveSuppo
 Cobregratis::Base.connection.cache_store= <your normal ActiveSupport::Caching options>
 ```
 
-Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em `examples/config_initializers_cobregratis.rb`.
+Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em [examples/config_initializers_cobregratis.rb](blob/master/examples/config_initializers_cobregratis.rb).
 
 ## Uso
 
 ```ruby
+# criar um boleto
+@bank_billet = Cobregratis::BankBillet.create({
+  :amount => 230.50,
+  :expire_at => '2015-07-22',
+  :name => 'Rafael Lima',
+})
+
+# listar todos os boletos
 @bank_billets = Cobregratis::BankBillet.find(:all)
-@bank_billet_accounts = Cobregratis::BankBilletAccount.find(:all)
-@services = Cobregratis::Service.find(:all)
+@billets.each do |bank_billet|
+  puts "Nosso Número: #{@bank_billet.our_number}\n";
+  puts "Vencimento: #{@bank_billet.expire_at}\n";
+  puts "Valor: #{@bank_billet.amount}\n";
+  puts "Sacado: #{@bank_billet.name}\n";
+  puts "URL: #{@bank_billet.external_link}\n";
+  puts "=================================\n";
+end
 ```
+
+Veja um exemplo no arquivo [example.rb](blob/master/examples/example.rb)
 
 ## Licença
 
