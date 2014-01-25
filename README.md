@@ -19,7 +19,7 @@ Cobregratis::Base.user = 'seu_token'
 Cobregratis::Base.password = 'X'
 ```
 
-Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em [examples/config_initializers_cobregratis.rb](https://github.com/rafaelp/cobregratis/blob/master/examples/config_initializers_cobregratis.rb).
+Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em [examples/config_initializers_cobregratis.rb](https://github.com/BielSystems/cobregratis-ruby/blob/master/examples/config_initializers_cobregratis.rb).
 
 ## Uso
 
@@ -43,7 +43,7 @@ Se você está usando essa gem numa aplicação Rails, é recomendado colocar es
 end
 ```
 
-Veja um exemplo no arquivo [example.rb](https://github.com/rafaelp/cobregratis/blob/master/examples/example.rb)
+Veja um exemplo no arquivo [example.rb](https://github.com/BielSystems/cobregratis-ruby/blob/master/examples/example.rb)
 
 ## Licença
 
@@ -51,7 +51,7 @@ Esse código é livre para ser usado dentro dos termos da licença [MIT license]
 
 ## Bugs, Issues, Agradecimentos, etc
 
-Comentários são bem-vindos. Envie seu feedback através do [issue tracker do GitHub](http://github.com/rafaelp/cobregratis/issues)
+Comentários são bem-vindos. Envie seu feedback através do [issue tracker do GitHub](http://github.com/BielSystems/cobregratis-ruby/issues)
 
 ## Colaboradores
 
