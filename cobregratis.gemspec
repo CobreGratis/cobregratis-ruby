@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency 'activeresource', "4.0.0"
-  spec.add_runtime_dependency 'activesupport', "4.0.0"
+  spec.add_runtime_dependency 'activeresource', "~> 4.0"
+  spec.add_runtime_dependency 'activesupport', "~> 4.0"
   spec.add_development_dependency "rake", "10.1.1"
   spec.add_development_dependency 'rspec', "2.14.1"
   spec.add_development_dependency 'bundler', "1.5.2"
