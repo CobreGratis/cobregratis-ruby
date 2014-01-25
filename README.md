@@ -19,12 +19,6 @@ Cobregratis::Base.user = 'seu_token'
 Cobregratis::Base.password = 'X'
 ```
 
-e se você estiver usando [cache](http://api.rubyonrails.org/classes/ActiveSupport/Cache):
-
-```ruby
-Cobregratis::Base.connection.cache_store= <your normal ActiveSupport::Caching options>
-```
-
 Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em [examples/config_initializers_cobregratis.rb](https://github.com/rafaelp/cobregratis/blob/master/examples/config_initializers_cobregratis.rb).
 
 ## Uso

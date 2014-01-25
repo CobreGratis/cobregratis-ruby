@@ -4,7 +4,6 @@ require 'pp'
 Cobregratis::Base.site = 'https://app.cobregratis.com.br'
 Cobregratis::Base.user = 'ddxm00pJnGhrYJhyypUgpwqkbvKMASEznqRM2MANv6nqz08APfWxdurtUJoz'
 Cobregratis::Base.password = 'X'
-Cobregratis::Base.connection.cache_store = nil#:memory_store
 
 @bank_billet = Cobregratis::BankBillet.create({
   :amount => 230.50,
