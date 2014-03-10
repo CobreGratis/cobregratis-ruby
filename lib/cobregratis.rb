@@ -9,5 +9,5 @@ module Cobregratis
 end
 
 def gem_path
-  Gem::Specification.find_by_name('jumpup-heroku').full_gem_path
+  Gem::Specification.find_by_name('cobregratis').full_gem_path
 end
