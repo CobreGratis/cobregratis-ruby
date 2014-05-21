@@ -5,6 +5,7 @@ module Cobregratis
   require 'cobregratis/base'
   require 'cobregratis/bank_billet_account'
   require 'cobregratis/bank_billet'
+  require 'cobregratis/customer'
   require 'cobregratis/service'
 end
 
