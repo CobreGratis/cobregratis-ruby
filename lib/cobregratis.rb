@@ -5,8 +5,10 @@ module Cobregratis
   require 'cobregratis/base'
   require 'cobregratis/bank_billet_account'
   require 'cobregratis/bank_billet'
+  require 'cobregratis/bank_billet_subscription'
   require 'cobregratis/customer'
   require 'cobregratis/service'
+  require 'cobregratis/web_hook'
 end
 
 def gem_path
