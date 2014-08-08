@@ -1,6 +1,6 @@
 # Ruby Gem para a API do Cobre Grátis
 
-Essa biblioteca é um conjunto de classes para acessar as informações do [Cobre Grátis](http://cobregratis.com.br) através da [API](https://github.com/BielSystems/cobregratis-api).
+Essa biblioteca é um conjunto de classes para acessar as informações do [Cobre Grátis](http://cobregratis.com.br) através da [API](https://github.com/CobreGratis/cobregratis-api).
 
 Todas as classes são herdadas do ActiveResouce::Base. Veja a documentação do [ActiveResouce](http://api.rubyonrails.org/classes/ActiveResource/Base.html) para mais informações.
 
@@ -19,7 +19,7 @@ Cobregratis::Base.user = 'seu_token'
 Cobregratis::Base.password = 'X'
 ```
 
-Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em [examples/config_initializers_cobregratis.rb](https://github.com/BielSystems/cobregratis-ruby/blob/master/examples/config_initializers_cobregratis.rb).
+Se você está usando essa gem numa aplicação Rails, é recomendado colocar esse código no arquivo `config/initializers/cobregratis.rb`. Veja um exemplo em [examples/config_initializers_cobregratis.rb](https://github.com/CobreGratis/cobregratis-ruby/blob/master/examples/config_initializers_cobregratis.rb).
 
 ## Uso
 
@@ -43,7 +43,7 @@ Se você está usando essa gem numa aplicação Rails, é recomendado colocar es
 end
 ```
 
-Veja um exemplo no arquivo [example.rb](https://github.com/BielSystems/cobregratis-ruby/blob/master/examples/example.rb)
+Veja um exemplo no arquivo [example.rb](https://github.com/CobreGratis/cobregratis-ruby/blob/master/examples/example.rb)
 
 ## Licença
 
@@ -51,7 +51,7 @@ Esse código é livre para ser usado dentro dos termos da licença [MIT license]
 
 ## Bugs, Issues, Agradecimentos, etc
 
-Comentários são bem-vindos. Envie seu feedback através do [issue tracker do GitHub](http://github.com/BielSystems/cobregratis-ruby/issues)
+Comentários são bem-vindos. Envie seu feedback através do [issue tracker do GitHub](http://github.com/CobreGratis/cobregratis-ruby/issues)
 
 ## Colaboradores
 
@@ -59,7 +59,7 @@ Agradecimento especial para o [Tapajós](http://github.com/tapajos).
 
 ## Autor
 
-[**Rafael Lima**](http://github.com/rafaelp) trabalhando na [BielSystems](http://bielsystems.com.br)
+[**Rafael Lima**](http://github.com/rafaelp) trabalhando na [CobreGratis](http://cobregratis.com.br)
 
 Blog: [http://rafael.adm.br](http://rafael.adm.br)
 
