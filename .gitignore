@@ -19,3 +19,5 @@ rdoc
 pkg
 
 .idea
+.bundle
+
