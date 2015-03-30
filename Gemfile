@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.2.1'
 
 # Specify your gem's dependencies in cobregratis.gemspec
 gemspec
