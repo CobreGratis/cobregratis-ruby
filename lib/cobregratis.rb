@@ -7,6 +7,7 @@ module Cobregratis
   require 'cobregratis/bank_billet'
   require 'cobregratis/bank_billet_subscription'
   require 'cobregratis/customer'
+  require 'cobregratis/cnab'
   require 'cobregratis/service'
   require 'cobregratis/web_hook'
 end
