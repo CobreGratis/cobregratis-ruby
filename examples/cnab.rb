@@ -7,6 +7,8 @@ Cobregratis::Base.user = 'minha_chave'
 Cobregratis::Base.password = 'X'
 
 # Enviando um CNAB
+# Envie o conteúdo original do cnab pedo do seu banco.
+# Se preferir enviar como binário ou multipar, use o parâmetro: file
 cnab = Cobregratis::Cnab.create({
   content: File.open("#{File.dirname(__FILE__)}/cnab.txt").read,
   filename: 'cnat.txt'
@@ -14,7 +16,7 @@ cnab = Cobregratis::Cnab.create({
 
 pp cnab
 
-Lista de cnabs
+# Lista de cnabs
 cnabs = Cobregratis::Cnab.find(:all)
 
 cnabs.each do |cnab|
@@ -25,3 +27,8 @@ cnabs.each do |cnab|
   puts "Boleto ID's: #{cnab.bank_billet_ids}\n";
   puts "=================================\n";
 end
+
+# Quitando boletos do cnab
+# Passe o ID do cnab chamando o 'pay_all_off'
+cnab = Cobregratis::Cnab.find(1).put(:pay_all_off)
+pp cnab
